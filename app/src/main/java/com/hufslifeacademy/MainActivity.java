@@ -1,12 +1,18 @@
 package com.hufslifeacademy;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+
 
 
 public class MainActivity extends AppCompatActivity {
@@ -17,10 +23,18 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+            CookieSyncManager.createInstance(this);
+        }
+
 
         // 웹뷰 시작
         mWebView = (WebView) findViewById(R.id.webView);
@@ -28,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         mWebView.setWebViewClient(new WebViewClient()); // 클릭시 새창 안뜨게
         mWebSettings = mWebView.getSettings(); //세부 세팅 등록
         mWebSettings.setJavaScriptEnabled(true); // 웹페이지 자바스클비트 허용 여부
-        mWebSettings.setSupportMultipleWindows(false); // 새창 띄우기 허용 여부
+        mWebSettings.setSupportMultipleWindows(true); // 새창 띄우기 허용 여부
         mWebSettings.setJavaScriptCanOpenWindowsAutomatically(false); // 자바스크립트 새창 띄우기(멀티뷰) 허용 여부
         mWebSettings.setLoadWithOverviewMode(true); // 메타태그 허용 여부
         mWebSettings.setUseWideViewPort(true); // 화면 사이즈 맞추기 허용 여부
@@ -43,6 +57,30 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+            CookieSyncManager.getInstance().startSync();
+        }
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+            CookieSyncManager.getInstance().stopSync();
+        }
+    }
+
+
+
+
+
+
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {//뒤로가기 버튼 이벤트
         if ((keyCode == KeyEvent.KEYCODE_BACK) && mWebView.canGoBack()) {//웹뷰에서 뒤로가기 버튼을 누르면 뒤로가짐
@@ -50,7 +88,13 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
         return super.onKeyDown(keyCode, event);
+
+
     }
+
+
+
+
 
     private class WebViewClientClass extends WebViewClient {//페이지 이동
         @Override
@@ -60,4 +104,22 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
     }
+
+    public WebViewClient webViewClient;
+
+    {
+        webViewClient = new WebViewClient() {
+            @Override
+            public void onPageFinished(WebView view, String url) {
+                if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
+                    //noinspection deprecation
+                    CookieSyncManager.getInstance().sync();
+                } else {
+                    // 롤리팝 이상에서는 CookieManager의 flush를 하도록 변경됨.
+                    CookieManager.getInstance().flush();
+                }
+            }
+        };
+    }
+
 }
