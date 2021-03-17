@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         mWebSettings = mWebView.getSettings(); //세부 세팅 등록
         mWebSettings.setJavaScriptEnabled(true); // 웹페이지 자바스클비트 허용 여부
         mWebSettings.setSupportMultipleWindows(true); // 새창 띄우기 허용 여부
-        mWebSettings.setJavaScriptCanOpenWindowsAutomatically(false); // 자바스크립트 새창 띄우기(멀티뷰) 허용 여부
+        mWebSettings.setJavaScriptCanOpenWindowsAutomatically(true); // 자바스크립트 새창 띄우기(멀티뷰) 허용 여부
         mWebSettings.setLoadWithOverviewMode(true); // 메타태그 허용 여부
         mWebSettings.setUseWideViewPort(true); // 화면 사이즈 맞추기 허용 여부
         mWebSettings.setSupportZoom(false); // 화면 줌 허용 여부
