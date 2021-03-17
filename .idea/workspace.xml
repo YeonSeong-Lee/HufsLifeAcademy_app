@@ -27,28 +27,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8bf946e1-2743-4815-b05b-43002ccec4ca" name="Default Changelist" comment="app source&#10;/&#10;ver3.&#10;캐쉬 허용으로 바꿔봄.">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/dex/release/mergeDexRelease/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/dex/release/mergeDexRelease/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/tmp/release/dex-renamer-state.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/com/hufslifeacademy/MainActivity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/com/hufslifeacademy/MainActivity$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/com/hufslifeacademy/MainActivity$WebViewClientClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/com/hufslifeacademy/MainActivity$WebViewClientClass.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/com/hufslifeacademy/MainActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/javac/release/classes/com/hufslifeacademy/MainActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/release/out/com/hufslifeacademy/MainActivity$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/release/out/com/hufslifeacademy/MainActivity$1.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/release/out/com/hufslifeacademy/MainActivity$WebViewClientClass.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/release/out/com/hufslifeacademy/MainActivity$WebViewClientClass.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/release/out/com/hufslifeacademy/MainActivity.dex" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/project_dex_archive/release/out/com/hufslifeacademy/MainActivity.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout_activity_main.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/reports/lint-results-release-fatal.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/hufslifeacademy/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/hufslifeacademy/MainActivity.java" afterDir="false" />
-    </list>
+    <list default="true" id="8bf946e1-2743-4815-b05b-43002ccec4ca" name="Default Changelist" comment="app source&#10;/&#10;ver3.&#10;캐쉬 허용&#10;새창 허용&#10;화면 확대 불허" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -237,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615988672546</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="app source&#10;/&#10;ver3.&#10;캐쉬 허용&#10;새창 허용&#10;화면 확대 불허">
+      <created>1615989076512</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1615989076512</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -256,7 +242,8 @@
     <MESSAGE value="app source" />
     <MESSAGE value="app source&#10;/&#10;ver2.&#10;로그인 문제 개선 &#10;앱 아이콘 변경" />
     <MESSAGE value="app source&#10;/&#10;ver3.&#10;캐쉬 허용으로 바꿔봄." />
-    <option name="LAST_COMMIT_MESSAGE" value="app source&#10;/&#10;ver3.&#10;캐쉬 허용으로 바꿔봄." />
+    <MESSAGE value="app source&#10;/&#10;ver3.&#10;캐쉬 허용&#10;새창 허용&#10;화면 확대 불허" />
+    <option name="LAST_COMMIT_MESSAGE" value="app source&#10;/&#10;ver3.&#10;캐쉬 허용&#10;새창 허용&#10;화면 확대 불허" />
   </component>
   <component name="WindowStateProjectService">
     <state x="845" y="382" key="#Notifications" timestamp="1615878403116">
@@ -275,34 +262,34 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1182" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615878256323" />
-    <state width="1876" height="232" key="GridCell.Tab.0.bottom" timestamp="1615988258274">
+    <state width="1876" height="232" key="GridCell.Tab.0.bottom" timestamp="1615989098656">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615988258274" />
-    <state width="1876" height="232" key="GridCell.Tab.0.center" timestamp="1615988258274">
+    <state width="1876" height="232" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615989098656" />
+    <state width="1876" height="232" key="GridCell.Tab.0.center" timestamp="1615989098655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615988258274" />
-    <state width="1876" height="232" key="GridCell.Tab.0.left" timestamp="1615988258273">
+    <state width="1876" height="232" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615989098655" />
+    <state width="1876" height="232" key="GridCell.Tab.0.left" timestamp="1615989098655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615988258273" />
-    <state width="1876" height="232" key="GridCell.Tab.0.right" timestamp="1615988258274">
+    <state width="1876" height="232" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615989098655" />
+    <state width="1876" height="232" key="GridCell.Tab.0.right" timestamp="1615989098655">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615988258274" />
+    <state width="1876" height="232" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615989098655" />
     <state x="922" y="164" key="SettingsEditor" timestamp="1615814189412">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="922" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615814189412" />
-    <state x="1032" y="261" key="Vcs.Push.Dialog.v2" timestamp="1615988724583">
+    <state x="1032" y="261" key="Vcs.Push.Dialog.v2" timestamp="1615989167414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615988724583" />
-    <state x="765" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615989033469">
+    <state x="1032" y="261" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615989167414" />
+    <state x="765" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615989119888">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615989033469" />
+    <state x="765" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1615989119888" />
     <state x="282" y="217" width="740" height="723" key="dock-window-1" timestamp="1615469542198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
