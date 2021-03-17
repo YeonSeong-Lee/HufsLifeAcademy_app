@@ -29,23 +29,22 @@
 19-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:12:9-54
 20        android:supportsRtl="true"
 20-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:13:9-35
-21        android:testOnly="true"
-22        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
-22-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:14:9-70
-23        <activity android:name="com.hufslifeacademy.MainActivity" >
-23-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:15:9-21:20
-23-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:15:19-47
-24            <intent-filter>
-24-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:16:13-20:29
-25                <action android:name="android.intent.action.MAIN" />
-25-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:17:17-69
-25-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:17:25-66
-26
-27                <category android:name="android.intent.category.LAUNCHER" />
-27-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:19:17-77
-27-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:19:27-74
-28            </intent-filter>
-29        </activity>
-30    </application>
-31
-32</manifest>
+21        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+21-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:14:9-70
+22        <activity android:name="com.hufslifeacademy.MainActivity" >
+22-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:15:9-21:20
+22-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:15:19-47
+23            <intent-filter>
+23-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:16:13-20:29
+24                <action android:name="android.intent.action.MAIN" />
+24-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:17:17-69
+24-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:17:25-66
+25
+26                <category android:name="android.intent.category.LAUNCHER" />
+26-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:19:17-77
+26-->C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:19:27-74
+27            </intent-filter>
+28        </activity>
+29    </application>
+30
+31</manifest>

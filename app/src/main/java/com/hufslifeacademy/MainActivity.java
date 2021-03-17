@@ -51,6 +51,12 @@ public class MainActivity extends AppCompatActivity {
         mWebSettings.setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN); // 컨텐츠 사이즈 맞추기
         mWebSettings.setCacheMode(WebSettings.LOAD_CACHE_ELSE_NETWORK); // 브라우저 캐시 허용 여부
         mWebSettings.setDomStorageEnabled(true); // 로컬저장소 허용 여부
+        mWebSettings.setAppCacheEnabled(true);
+        mWebSettings.setAllowContentAccess(true);
+        mWebSettings.setAllowFileAccess(true);
+        mWebSettings.setAllowUniversalAccessFromFileURLs(true);
+        mWebSettings.setAllowContentAccess(true);
+
 
 
 
