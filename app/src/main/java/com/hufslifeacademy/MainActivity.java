@@ -1,7 +1,6 @@
 package com.hufslifeacademy;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
@@ -14,11 +13,11 @@ import android.webkit.WebViewClient;
 
 
 
-
 public class MainActivity extends AppCompatActivity {
 
     private WebView mWebView;
     private WebSettings mWebSettings;
+    private BackPressCloseHandler backPressCloseHandler;
 
 
 
@@ -43,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         mWebSettings = mWebView.getSettings(); //세부 세팅 등록
         mWebSettings.setJavaScriptEnabled(true); // 웹페이지 자바스클비트 허용 여부
+        mWebSettings.setJavaScriptCanOpenWindowsAutomatically(true); // 팝업 허용
         mWebSettings.setSupportMultipleWindows(false); // 새창 띄우기 허용 여부
         mWebSettings.setJavaScriptCanOpenWindowsAutomatically(false); // 자바스크립트 새창 띄우기(멀티뷰) 허용 여부
         mWebSettings.setLoadWithOverviewMode(true); // 메타태그 허용 여부
@@ -58,10 +58,13 @@ public class MainActivity extends AppCompatActivity {
         mWebSettings.setAllowUniversalAccessFromFileURLs(true);
         mWebSettings.setAllowContentAccess(true);
 
+        CookieSyncManager.getInstance().startSync();
 
 
 
         mWebView.loadUrl("https://hufslifeacademy.com"); // 웹뷰에 표시할 웹사이트 주소, 웹뷰 시작
+
+        backPressCloseHandler = new BackPressCloseHandler(this);
 
 
     }
@@ -130,4 +133,15 @@ public class MainActivity extends AppCompatActivity {
         };
     }
 
+
+
+
+
+    @Override
+    public void onBackPressed() {
+        backPressCloseHandler.onBackPressed();
+    }
+
 }
+
+
