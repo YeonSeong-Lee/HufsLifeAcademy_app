@@ -15,10 +15,11 @@
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="훕스 라이프 아카데미"
+        android:label="HUFS Life Academy"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" >
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true" >
         <activity android:name="com.hufslifeacademy.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

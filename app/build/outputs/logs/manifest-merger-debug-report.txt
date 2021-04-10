@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
+ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\44b21666f861b2b454523071d69d07d7\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
@@ -37,20 +37,20 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\user\.gradle\
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\1435e0b5216c3fd72a2d6579c29d3ee1\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\035487676af6db782633ffbdc1d98b21\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
-INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
-INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:3:5-34
 		INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-25:12
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:1-26:12
 		INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:2:11-69
@@ -59,7 +59,7 @@ ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\Andr
 	android:name
 		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:8:5-22:19
+ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:8:5-23:19
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\user\.gradle\caches\transforms-2\files-2.1\73327337a728e12c5c3cdecdb4b7e327\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
@@ -73,7 +73,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\us
 	android:supportsRtl
 		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:11:9-36
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:11:9-42
 	android:roundIcon
 		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
@@ -81,21 +81,23 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\us
 	android:allowBackup
 		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:14:9-70
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:15:9-70
+	android:usesCleartextTraffic
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:14:9-44
 activity#com.hufslifeacademy.MainActivity
-ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:15:9-21:20
+ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:15:19-47
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:16:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:16:13-20:29
+ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:19:17-77
+ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:19:27-74
+		ADDED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\user\AndroidStudioProjects\HufsLifeAcademy\app\src\main\AndroidManifest.xml
