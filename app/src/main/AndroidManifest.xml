@@ -8,9 +8,10 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="훕스 라이프 아카데미"
+        android:label="HUFS Life Academy"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme = "@style/Theme.AppCompat.DayNight.NoActionBar" >
         <activity android:name=".MainActivity">
             <intent-filter>
